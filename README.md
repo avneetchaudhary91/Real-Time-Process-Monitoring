@@ -16,41 +16,21 @@ Real-Time Process Monitoring is a project aimed at providing real-time insights 
 
 ### Prerequisites
 
-- Node.js (version 14.x or higher)
-- npm (version 6.x or higher)
-- MongoDB (for storing historical data)
+- Python (if using a Python-based implementation)
+- Node.js (for web-based monitoring)
+- Required dependencies (see below)
+- pip install -r requirements.txt  # For Python  
+- npm install  # For Node.js  
+- python monitor.py
+- node server.js
 
-### Steps
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/real-time-process-monitoring.git
-   cd real-time-process-monitoring
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Set up environment variables:
-   Create a `.env` file in the root directory and add the following:
-   ```env
-   DB_CONNECTION_STRING=mongodb://localhost:27017/process-monitoring
-   PORT=3000
-   ```
-
-4. Start the application:
-   ```bash
-   npm start
-   ```
 
 ## Usage
 
-1. Open your web browser and navigate to `http://localhost:3000`.
-2. Use the dashboard to monitor system processes in real-time.
-3. Configure alerts and notifications as needed.
-4. Review historical data to identify trends and anomalies.
+1. Run the monitoring script to start real-time tracking.
+2. Open the web dashboard (if available) to visualize data.
+3. Use API endpoints to fetch data programmatically.
 
 ## Contributing
 
@@ -59,12 +39,7 @@ Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTIN
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- [Node.js](https://nodejs.org/)
-- [MongoDB](https://www.mongodb.com/)
-- [Chart.js](https://www.chartjs.org/)
+ww.chartjs.org/)
 
 ## Contact
 
